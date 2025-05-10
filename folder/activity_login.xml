@@ -3,30 +3,46 @@
     android:padding="24dp"
     android:gravity="center_horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000080">
 
     <EditText
         android:id="@+id/usernameInput"
         android:hint="Username"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        />
 
     <EditText
         android:id="@+id/passwordInput"
         android:hint="Password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        />
 
     <Button
         android:id="@+id/loginBtn"
         android:text="Login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        />
 
     <Button
         android:id="@+id/registerRedirectBtn"
-        android:text="Belum punya akun? Register"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? Register"
+        android:backgroundTint="#FFA500"
+        />
 </LinearLayout>
